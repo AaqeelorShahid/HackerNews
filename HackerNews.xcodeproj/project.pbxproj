@@ -11,6 +11,10 @@
 		F7482DAF2767986000545FEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7482DAE2767986000545FEA /* ContentView.swift */; };
 		F7482DB12767986200545FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7482DB02767986200545FEA /* Assets.xcassets */; };
 		F7482DB42767986200545FEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7482DB32767986200545FEA /* Preview Assets.xcassets */; };
+		F7482DBC2767BA1200545FEA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7482DBB2767BA1200545FEA /* NetworkManager.swift */; };
+		F7482DBE2767BC3300545FEA /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7482DBD2767BC3300545FEA /* PostData.swift */; };
+		F7482DC12767D18200545FEA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7482DC02767D18200545FEA /* DetailView.swift */; };
+		F7482DC32767D87B00545FEA /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7482DC22767D87B00545FEA /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		F7482DAE2767986000545FEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7482DB02767986200545FEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7482DB32767986200545FEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7482DBB2767BA1200545FEA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F7482DBD2767BC3300545FEA /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		F7482DC02767D18200545FEA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F7482DC22767D87B00545FEA /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,9 @@
 		F7482DAB2767986000545FEA /* HackerNews */ = {
 			isa = PBXGroup;
 			children = (
+				F7482DBF2767D16C00545FEA /* Views */,
+				F7482DBA2767B9F900545FEA /* Models */,
 				F7482DAC2767986000545FEA /* HackerNewsApp.swift */,
-				F7482DAE2767986000545FEA /* ContentView.swift */,
 				F7482DB02767986200545FEA /* Assets.xcassets */,
 				F7482DB22767986200545FEA /* Preview Content */,
 			);
@@ -65,6 +74,25 @@
 				F7482DB32767986200545FEA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7482DBA2767B9F900545FEA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7482DBB2767BA1200545FEA /* NetworkManager.swift */,
+				F7482DBD2767BC3300545FEA /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F7482DBF2767D16C00545FEA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7482DAE2767986000545FEA /* ContentView.swift */,
+				F7482DC02767D18200545FEA /* DetailView.swift */,
+				F7482DC22767D87B00545FEA /* WebView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7482DBC2767BA1200545FEA /* NetworkManager.swift in Sources */,
+				F7482DBE2767BC3300545FEA /* PostData.swift in Sources */,
 				F7482DAF2767986000545FEA /* ContentView.swift in Sources */,
+				F7482DC32767D87B00545FEA /* WebView.swift in Sources */,
+				F7482DC12767D18200545FEA /* DetailView.swift in Sources */,
 				F7482DAD2767986000545FEA /* HackerNewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
